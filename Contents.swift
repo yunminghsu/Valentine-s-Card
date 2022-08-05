@@ -23,8 +23,8 @@ for i in 0...10{
     let starLabel2=UILabel(frame: CGRect(x: 5+i*30, y: 225, width: 20, height: 10))
     starLabel.text="🐱"
     starLabel2.text="🐱"
-    starLabel.transform=CGAffineTransform(rotationAngle: .pi/180 * -45)
-    starLabel2.transform=CGAffineTransform(rotationAngle: .pi/180 * 45)
+    starLabel.transform=CGAffineTransform(rotationAngle: .pi/180 * -30)
+    starLabel2.transform=CGAffineTransform(rotationAngle: .pi/180 * 30)
     catImage.addSubview(starLabel)
     catImage.addSubview(starLabel2)
 }
